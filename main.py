@@ -1,5 +1,8 @@
 from github import Github
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # 🔑 Replace with your GitHub Personal Access Token
 TOKEN = "your_personal_access_token"
