@@ -29,24 +29,36 @@ Instead of using Git commands like:
 git add .
 git commit -m "message"
 git push
+```
 
-👉 This project uses Python with the PyGithub library to interact directly with the GitHub API.
+👉 This project uses Python with the **PyGithub** library to interact directly with the GitHub API.
 
-🛠️ Install Required Library
+---
+
+## 🛠️ Install Required Library
+
+```bash
 pip install PyGithub
+```
 
-⚡ What the Script Does
-Connects to your GitHub account using a Personal Access Token
-Creates a new repository
-Uploads files from your local folder
-Automatically commits each file
+---
 
-🚀 No Git CLI required!
+## ⚡ What the Script Does
 
-🔐 Setup GitHub Token
-Go to GitHub → Settings → Developer Settings
-Click Personal Access Tokens
-Generate a token with:
-✅ repo access
+1. Connects to your GitHub account using a Personal Access Token
+2. Creates a new repository
+3. Uploads files from your local folder
+4. Automatically commits each file
 
-⚠️ Never expose your token publicly
+🚀 **No Git CLI required!**
+
+---
+
+## 🔐 Setup GitHub Token
+
+1. Go to **GitHub** → **Settings** → **Developer Settings**
+2. Click **Personal Access Tokens**
+3. Generate a token with:
+   - ✅ `repo` access
+
+⚠️ **Never expose your token publicly**
