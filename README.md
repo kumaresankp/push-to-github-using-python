@@ -7,11 +7,11 @@ This project uses the **PyGithub** library to create repositories and upload fil
 
 ## 🔥 Features
 
-- 📁 Upload entire folders to GitHub
-- 🤖 Fully automated (no manual Git commands)
-- ⚡ Create repository using Python
-- 📝 Auto commit while uploading files
-- 🔐 Works with GitHub Personal Access Token
+- 📁 Upload entire folders to GitHub  
+- 🤖 Fully automated (no manual Git commands)  
+- ⚡ Create repository using Python  
+- 📝 Auto commit while uploading files  
+- 🔐 Works with GitHub Personal Access Token  
 
 ---
 
@@ -23,8 +23,30 @@ This project uses the **PyGithub** library to create repositories and upload fil
 
 ## 🧠 How It Works
 
-Instead of using:
+Instead of using Git commands like:
+
 ```bash
 git add .
 git commit -m "message"
 git push
+
+👉 This project uses Python with the PyGithub library to interact directly with the GitHub API.
+
+🛠️ Install Required Library
+pip install PyGithub
+
+⚡ What the Script Does
+Connects to your GitHub account using a Personal Access Token
+Creates a new repository
+Uploads files from your local folder
+Automatically commits each file
+
+🚀 No Git CLI required!
+
+🔐 Setup GitHub Token
+Go to GitHub → Settings → Developer Settings
+Click Personal Access Tokens
+Generate a token with:
+✅ repo access
+
+⚠️ Never expose your token publicly
